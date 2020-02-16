@@ -4,7 +4,7 @@ class Player extends GameObject
   {
     super(coords);
 
-    this.sprite = eve.create.SpriteSheet('ParrotFly', 2, 2, 4, 0.5, true);
+    this.sprite = eve.create.Bitmap('HappyPixel', { x: 0, y: 0 });
     this.addChild(this.sprite);
   }
 }

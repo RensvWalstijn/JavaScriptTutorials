@@ -10,6 +10,8 @@ function LoadGame ()
         .File('./files/source/game/core/scene.js', { divId: 'game' }, () => { eve.add
         .File('./files/source/game/core/gameObject.js', { divId: 'game' }, () => { eve.add
         .File('./files/source/game/elements/player.js', { divId: 'game' }, () => { eve.add
+        .File('./files/source/game/elements/maze.js', { divId: 'game' }, () => { eve.add
+        .File('./files/source/game/elements/wall.js', { divId: 'game' }, () => { eve.add
         .File('./files/source/game/scenes/gamePlay.js', { divId: 'game' }, () => {
           preloader.Init(() => {
             createjs.Ticker.addEventListener("tick", handleTick);
@@ -38,5 +40,5 @@ function LoadGame ()
 
             window.dispatchEvent(new Event('resize'));
           })
-        })})})})})})})})})
+        })})})})})})})})})})})
 }

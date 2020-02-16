@@ -9,7 +9,8 @@ const preloader = {
     this._callback = callback;
     this._HandleImageLoad = this._HandleImageLoad.bind(this);
 
-    this._LoadImage('./files/images/template/ParrotFly.png', 'ParrotFly');
+    this._LoadImage('./files/images/HappyPixel.png', 'HappyPixel');
+    this._LoadImage('./files/images/MadPixel.png', 'MadPixel');
   },
 
   _LoadImage (fileString, fileName)
