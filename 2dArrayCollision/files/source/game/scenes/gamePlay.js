@@ -32,6 +32,7 @@ class gamePlay extends Scene
   Update ()
   {
     // Update children
+    this.player.Update();
   }
 
   OnRotaion ()
